@@ -1,25 +1,25 @@
 class Tagteam < Formula
   desc "Multi-account switcher for AI coding agent CLIs"
   homepage "https://github.com/michaelrigart/tagteam"
-  version "20261014.1500.0"
+  version "20261014.2045.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.1500.0/tagteam-aarch64-apple-darwin.tar.xz"
-      sha256 "af5e353cf1cc3118d935546b90ff4b1911b455d119dcd31939e3e77ede1adbe1"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.2045.0/tagteam-aarch64-apple-darwin.tar.xz"
+      sha256 "64c2650c06a0032e95a360139a89b37dd241cf26bb7a441fa3bcb4ec84a1f178"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.1500.0/tagteam-x86_64-apple-darwin.tar.xz"
-      sha256 "71d29cdd6b4a8aebb597db8bc1d893c4cd4756357a7fb5cda20404080bef2c25"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.2045.0/tagteam-x86_64-apple-darwin.tar.xz"
+      sha256 "e4318ef156e93641d314f0b474a59256efe90c089ce5f49a59d60c743573e5ba"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.1500.0/tagteam-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "1ec3ff380e5be88a4254655faeda680630354d10ec363bda32096239fe0daf5b"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.2045.0/tagteam-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "e4ace47f150b0935b849e221a5e7efcf01f03c446f3c11b5ddb9eca7c8761149"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.1500.0/tagteam-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "ebd448030dbbc6ea6b96a633191ad9ffaf2d78571e4c39ad24dc1c443223c41c"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.2045.0/tagteam-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "5dad6489c7980a67b8dfe614fc6c725966974cfef6d3a5a340214e025562e1e1"
     end
   end
   license "MIT"
