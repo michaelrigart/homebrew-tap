@@ -1,25 +1,25 @@
 class Tagteam < Formula
   desc "Multi-account switcher for AI coding agent CLIs"
   homepage "https://github.com/michaelrigart/tagteam"
-  version "20261013.2030.0"
+  version "20261014.1500.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261013.2030.0/tagteam-aarch64-apple-darwin.tar.xz"
-      sha256 "e7ea47753dc5389fa5a68f9760bd350c27ebd3aedfaf18ebbf2587b427326ae3"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.1500.0/tagteam-aarch64-apple-darwin.tar.xz"
+      sha256 "af5e353cf1cc3118d935546b90ff4b1911b455d119dcd31939e3e77ede1adbe1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261013.2030.0/tagteam-x86_64-apple-darwin.tar.xz"
-      sha256 "c6103e8c4a5f51f0a3a5b531ab6b18411fd63b52cabaf59127c688d7327abf7f"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.1500.0/tagteam-x86_64-apple-darwin.tar.xz"
+      sha256 "71d29cdd6b4a8aebb597db8bc1d893c4cd4756357a7fb5cda20404080bef2c25"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261013.2030.0/tagteam-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "2aa77bf0413b7e1c05df0af61ed04b9310b7264fc45d325539a5302eb3c1c502"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.1500.0/tagteam-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "1ec3ff380e5be88a4254655faeda680630354d10ec363bda32096239fe0daf5b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261013.2030.0/tagteam-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "66c660a52c9919c2e95f0186a3f910e016f05777e80bfd16bbe711a44b859716"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.1500.0/tagteam-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "ebd448030dbbc6ea6b96a633191ad9ffaf2d78571e4c39ad24dc1c443223c41c"
     end
   end
   license "MIT"
