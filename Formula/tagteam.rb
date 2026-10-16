@@ -1,25 +1,25 @@
 class Tagteam < Formula
   desc "Multi-account switcher for AI coding agent CLIs"
   homepage "https://github.com/michaelrigart/tagteam"
-  version "20261014.2045.0"
+  version "20261016.2230.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.2045.0/tagteam-aarch64-apple-darwin.tar.xz"
-      sha256 "64c2650c06a0032e95a360139a89b37dd241cf26bb7a441fa3bcb4ec84a1f178"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261016.2230.0/tagteam-aarch64-apple-darwin.tar.xz"
+      sha256 "c3a97cf12eb53633ccf946add4b082f63f16b8f9bc1314489ebdbc9215222db2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.2045.0/tagteam-x86_64-apple-darwin.tar.xz"
-      sha256 "e4318ef156e93641d314f0b474a59256efe90c089ce5f49a59d60c743573e5ba"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261016.2230.0/tagteam-x86_64-apple-darwin.tar.xz"
+      sha256 "fb638527c6ac1fd4bcacc02cb489c00223e1515cde3b798e9c5ca0c19e3056ba"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.2045.0/tagteam-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "e4ace47f150b0935b849e221a5e7efcf01f03c446f3c11b5ddb9eca7c8761149"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261016.2230.0/tagteam-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "96fca3b95f1fde66e6c89475e4ea0fdc928c33bc416019faa644478a5429d603"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261014.2045.0/tagteam-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "5dad6489c7980a67b8dfe614fc6c725966974cfef6d3a5a340214e025562e1e1"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261016.2230.0/tagteam-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "2df4caa113f26c8cdd5700f69f880399d90e9cc5a224b6896d7a068e3fab984d"
     end
   end
   license "MIT"
