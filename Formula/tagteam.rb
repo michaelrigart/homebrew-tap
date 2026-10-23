@@ -1,25 +1,25 @@
 class Tagteam < Formula
   desc "Multi-account switcher for AI coding agent CLIs"
   homepage "https://github.com/michaelrigart/tagteam"
-  version "20261016.2230.0"
+  version "20261023.738.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261016.2230.0/tagteam-aarch64-apple-darwin.tar.xz"
-      sha256 "c3a97cf12eb53633ccf946add4b082f63f16b8f9bc1314489ebdbc9215222db2"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261023.738.0/tagteam-aarch64-apple-darwin.tar.xz"
+      sha256 "754a29c52ef23acbde103c16b5b495e5b2fce5db2b27a7a33f2fd221b8d02d33"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261016.2230.0/tagteam-x86_64-apple-darwin.tar.xz"
-      sha256 "fb638527c6ac1fd4bcacc02cb489c00223e1515cde3b798e9c5ca0c19e3056ba"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261023.738.0/tagteam-x86_64-apple-darwin.tar.xz"
+      sha256 "5d913377a8f7102ff4e5f041da9bed60147511f42f9ddc605a3babcd3092449f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261016.2230.0/tagteam-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "96fca3b95f1fde66e6c89475e4ea0fdc928c33bc416019faa644478a5429d603"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261023.738.0/tagteam-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "03e71d2003c65c8966f8a82e9632414f5e406a7034f16a8c593c07ad131d429e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261016.2230.0/tagteam-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "2df4caa113f26c8cdd5700f69f880399d90e9cc5a224b6896d7a068e3fab984d"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261023.738.0/tagteam-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "da0be8627fd486719cf710e7c27bd0f49ee707d072e34bffa07a2a0241aa4083"
     end
   end
   license "MIT"
