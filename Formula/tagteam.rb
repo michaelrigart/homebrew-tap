@@ -1,19 +1,19 @@
 class Tagteam < Formula
   desc "Multi-account switcher for AI coding agent CLIs"
   homepage "https://github.com/michaelrigart/tagteam"
-  version "20261031.2215.0"
+  version "20261111.1935.0"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/michaelrigart/tagteam/releases/download/v20261031.2215.0/tagteam-aarch64-apple-darwin.tar.xz"
-    sha256 "fa15d8bc89a068b7d393619e2072016c7450639158e8b2c59ce8caf25ff829bf"
+    url "https://github.com/michaelrigart/tagteam/releases/download/v20261111.1935.0/tagteam-aarch64-apple-darwin.tar.xz"
+    sha256 "9be4ebe37f8a950d64a31ad4f0cb2730982dc3fe14e872705799cfbd7ddb6fd0"
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261031.2215.0/tagteam-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "16767c41a8ebf9fb5571ef6990e963d2dde8fb90e65441b9b546de1e78af1f1d"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261111.1935.0/tagteam-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "e5cd8d72fa01eb9f92887168788b22d54d306ae0556a8e89c038c7daaac50b6c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/michaelrigart/tagteam/releases/download/v20261031.2215.0/tagteam-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "b4d7b0d8d5e43a99f68d37147f3362fa0a7a5d6a609290b46cde358d285f93a0"
+      url "https://github.com/michaelrigart/tagteam/releases/download/v20261111.1935.0/tagteam-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "7aa9904af3de547f3f09d69de3857261227e89fe0499d7f4147a2edaf1e6f73c"
     end
   end
   license "MIT"
